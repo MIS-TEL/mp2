@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: eee;
+    }
+
+    form{
+        background-image: linear-gradient(to left top, #003aff, #005dfc, #0072ec, #0080d5, #2c8aba);
+        max-width: 500px;
+        width: 70%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+    }
+
+    form h3{
+        text-align: center;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+
+    form input[type=text],
+    form input[type=password]{
+        width: 100%;
+        height: 45px;
+        border: 1px solid white;
+        padding-left: 10px;
+        margin: 10px 0;
+        background: none;
+        color: white;
+        border-radius: 15px;
+        
+    
+
+    }
+
+    form img{
+        position: relative;
+        left: 48%;
+        top: 10%;
+        transform: translate(-50%, -50%);
+        width: 15%;
+        height: 15%;
+        margin: 15px;
+        
+    }
+
+    form input::placeholder{
+        color: white;
+    }
+
+    form input[type=submit]{
+
+        width: 100%;
+        height: 30px;
+        cursor: pointer;
+        background-color: white;
+        border: 0;
+        border-radius: 10px;
+
+
+    }
+
+    form input[type=submit]:hover{
+        background-color: #ccc;
+    }
