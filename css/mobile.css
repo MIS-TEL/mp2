@@ -72,7 +72,7 @@
 .botao{
     font-size: 20px;
     position: absolute;
-    top: 68%;
+    top: 80%;
     left: 50%;
     transform: translateX(-50%);
     font-weight: bold;
@@ -99,7 +99,7 @@
 }
 .bloco1{
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 30%;
     transform: translateX(-50%);
     width: 130px;
@@ -109,7 +109,7 @@
 }
 .bloco2{
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 70%;
     transform: translateX(-50%);
     width: 130px;
@@ -121,7 +121,7 @@
 
 .bloco3{
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 30%;
     transform: translateX(-50%);
     width: 130px;
@@ -134,7 +134,7 @@
 
 .bloco4{
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 70%;
     transform: translateX(-50%);
     width: 130px;
@@ -147,7 +147,7 @@
 
 .bloco5{
     position: absolute;
-    top: 120%;
+    top: 130%;
     left: 70%;
     transform: translateX(-50%);
     width: 130px;
@@ -160,7 +160,7 @@
 
 .bloco6{
     position: absolute;
-    top: 120%;
+    top: 130%;
     left: 30%;
     transform: translateX(-50%);
     width: 130px;
@@ -170,7 +170,7 @@
 .resultados-MP{
 
     position: absolute;
-    top: 145%;
+    top: 155%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 20px;
@@ -183,7 +183,7 @@
 
 .bloco1-mp{
     position: absolute;
-    top: 150%;
+    top: 160%;
     left: 30%;
     width: 130px;
     
@@ -197,7 +197,7 @@
 
 .bloco2-mp{
     position: absolute;
-    top: 150%;
+    top: 160%;
     left: 70%;
     transform: translateX(-50%);
     width: 130px;
@@ -210,7 +210,7 @@
 
 .bloco3-mp{
     position: absolute;
-    top: 170%;
+    top: 180%;
     left: 70%;
     transform: translateX(-50%);
     width: 130px;
@@ -222,7 +222,7 @@
 }
 .bloco4-mp{
     position: absolute;
-    top: 170%;
+    top: 180%;
     left: 30%;
     transform: translateX(-50%);
     width: 130px;
@@ -234,7 +234,7 @@
 }
 .bloco5-mp{
     position: absolute;
-    top: 170%;
+    top: 180%;
     left: 70%;
     transform: translateX(-50%);
     width: 130px;
@@ -247,7 +247,7 @@
 
 .bloco5-mp{
     position: absolute;
-    top: 190%;
+    top: 200%;
     left: 70%;
     transform: translateX(-50%);
     width: 130px;
@@ -260,7 +260,7 @@
 
 .bloco6-mp{
     position: absolute;
-    top: 190%;
+    top: 200%;
     left: 30%;
     transform: translateX(-50%);
     width: 130px;
@@ -273,7 +273,7 @@
 
 .bloco7-mp{
     position: relative;
-    top: 165%;
+    top: 175%;
     left: 150%;
     transform: translateX(-50%);
     width: 325px;
@@ -285,10 +285,9 @@
 
 #footer{
     position: absolute;
-    top: 290%;
-    left: 110%;
+    top: 300%;
+    left: 130%;
     transform: translate(-50%,-50% );
-    text-align: center;
 
 }
 
