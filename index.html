@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador - Mercado Pago</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <link rel="shortcut icon" href="/IMG/favicon.ico">
+    <script src="./jquery-3.6.0.js"></script>
+    <script src="./html2canvas.js"></script>    
+    <script src="./script.js" defer></script>
+</head>
+
+
+
+<body class="body" id="body">
+    <nav id="navbar">
+        <div class="navbar-container">
+            <img class="logo" src="https://logospng.org/download/mercado-pago/logo-mercado-pago-icone-1024.png" alt="">
+            <img class="logo-tel" src="IMG/logo.png" alt="">            
+            <h1 class="text-logo">Calculadora - Mercado Pago</h1>
+            <p class="comentario" type="text" value="" id="comentario">
+        </div>
+    </nav>
+
+<header id="body">
+
+    <div class="loading">
+        <img src="./img/loading.gif" alt="Carregando..." id="loading" >
+    </div>
+    
+    <div class="preencher-title">
+        <p>Preencha todos os campos para realizar o calculo</p>
+    </div>
+    <div class="preencher">   
+        <ul id="navbar-items">
+        <label for="" class="input-group">
+          <span class="input-group__label">Faturamento</span>
+          <input class="inputs2" type="number" id="faturamento" />
+        </label>
+          
+        <label for="" class="input-group">
+            <span class="input-group__label">Share Debito %</span>
+            <input class="inputs2" type="porcent" id="SHARED"/>
+        </label>
+          
+        <label for="" class="input-group">
+            <span class="input-group__label">Share Credito %</span>
+            <input class="inputs2" type="porcent" id="SHAREC"/>
+        </label>
+          
+        <label for="" class="input-group">
+            <span class="input-group__label">Aluguel</span>
+            <input class="inputs2" type="number" id="aluguel">
+        </label>
+
+        <label for="" class="input-group">
+    
+            <span class="input-group__label">Taxa M. Debito</span>
+            <input class="inputs2" type="porcent" id="txdebito">
+        </label>
+
+        <label for="" class="input-group">
+            <span class="input-group__label">Taxa M. Credito</span>
+            <input class="inputs2" type="porcent" id="txcredito">
+        </label>
+
+
+    </ul>
+    </div>
+    <div class="comentario">
+        <p type="text" value="" id="comentario">
+    </div>
+    </header>   
+
+
+
+
+    <div id="calcular">
+    <table>
+        <tr>
+            <td> 
+            <input alt="index" class="botao" type="button" value="CALCULAR" onclick="Calculadora();" name=""> 
+            </td>
+        </tr> 
+    </table>
+    </div>
+    
+    <seletion class="blocos">
+    <div id="blocos-items">    
+        <h1 class="resultados">Resultado - Concorrente</h1>
+
+        <div class="bloco1">
+            <input type="text" class="valor_share" name="result" id="share_debito">
+            <img src="img/carteira.png" alt="" class="carteira">
+            <p class="titulo_share">SHARE DÉBITO</p>
+        </div>    
+ 
+        <div class="bloco2"> 
+            <input type="text" class="valor_share" name="result" id="share_credito">
+            <img class="carteira" src="IMG/carteira.png">
+            <p class="titulo_share">SHARE CRÉDITO</p>
+            </div>
+
+
+        <div class="bloco3">    
+        <input type="text" class="valor_share" name="result" id="mdr_debito">
+        <img src="img/money.png" alt="" class="carteira">
+        <p class="titulo_share">MDR DÉBITO</p>
+        </div>
+
+        <div class="bloco4">
+            <input type="text" class="valor_share" name="result" id="mdr_credito">
+            <img src="img/money.png" alt="" class="carteira">
+            <p class="titulo_share">MDR CRÉDITO</p>
+        </div>
+        <div class="bloco5">
+        <input type="text" class="valor_share" name="result" id="mdr_total">
+        <img src="img/money (1).png" alt="" class="carteira">
+        <p class="titulo_share">MDR TOTAL</p>
+        </div>
+        
+        <DIV class="bloco6">
+        <input type="text" class="valor_share" name="result" id="mdr_ano">
+        <img src="img/money (1).png" alt="" class="carteira">
+        <p class="titulo_share">MDR ANUAL</p>
+    </DIV>
+    </seletion>
+    
+    
+    
+    <seletion class="blocos-mp">
+        <div id="blocos-items">    
+            <h1 class="resultados-MP">Resultado - Mercado Pago</h1>
+    
+            <div class="bloco1-mp">
+                <input type="text" class="valor_share" name="result" id="taxa-debito-mp">
+                <img src="img/carteira.png" alt="" class="carteira">
+                <p class="titulo_share">TAXA DÉBITO</p>
+            </div>    
+     
+            <div class="bloco2-mp"> 
+                <input type="text" class="valor_share" name="result" id="taxa-credito-mp">
+                <img class="carteira" src="IMG/carteira.png">
+                <p class="titulo_share">TAXA CRÉDITO</p>
+                </div>
+    
+    
+            <div class="bloco3-mp">    
+            <input type="text" class="valor_share" name="result" id="mdr_debito_mp">
+            <img src="img/money.png" alt="" class="carteira">
+            <p class="titulo_share">MDR DÉBITO</p>
+            </div>
+    
+            <div class="bloco4-mp">
+                <input type="text" class="valor_share" name="result" id="mdr_credito_mp">
+                <img src="img/money.png" alt="" class="carteira">
+                <p class="titulo_share">MDR CRÉDITO</p>
+            </div>
+            <div class="bloco5-mp">
+            <input type="text" class="valor_share" name="result" id="mdr_total_mp">
+            <img src="img/money (1).png" alt="" class="carteira">
+            <p class="titulo_share">MDR TOTAL</p>
+            </div>
+            
+            <DIV class="bloco6-mp">
+            <input type="text" class="valor_share" name="result" id="mdr_ano_mp">
+            <img src="img/money (1).png" alt="" class="carteira">
+            <p class="titulo_share">MDR ANUAL</p>
+
+
+            <DIV class="bloco7-mp" id="bloco7-mp">
+                <input type="text" class="valor_TOTAL" name="result" id="DIF">
+                <img src="img/money (1).png" alt="" class="TOTAL">
+                <p class="titulo_TOTAL">DIFERENÇA ANUAL - MDR</p>
+        </DIV>
+        </seletion>
+
+
+        <div class="compartilhar">
+            <button type="button" id="btnScreenshot">screenshot</button>
+            <img src="" id="img1">
+        </div>
+    
+    
+    
+    
+    <footer id="">
+        <p id="footer"> SINCE 2022 - POWERD BY M.I.S. TEL</p>
+    </footer>
+
+
+    <div id="screenshot">
+
+    </div>
+    
+    
+    
+    
+    
+    
+	
+
+    
+    
+    
+</body>
+</html>
