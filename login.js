@@ -2,8 +2,8 @@ function entrar(event){
     event.preventDefault()
 
     const form = document.querySelector('#form')
-    var login = "123"
-    var senha = "123"
+    var login = "tel@mis"
+    var senha = "tel@2022"
     var campologin = document.getElementById("text").value
     var camposenha = document.getElementById("password").value
 
