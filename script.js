@@ -58,14 +58,15 @@ function Calculadora(){
         let aluguel = document.getElementById("aluguel").value;
         let txdebito = document.getElementById("txdebito").value;
         let txcredito = document.getElementById("txcredito").value;
+        let valormaquina = document.getElementById("valormaquininha").value
         
         //calculos
         let debitos = faturamento*shared/100;
         let creditos = faturamento*sharedc/100;
         let mdrdeb = debitos*txdebito/100;
-        let mdrcred = creditos*txcredito/100;;
+        let mdrcred = creditos*txcredito/100;
         let mdrtotal = mdrdeb+mdrcred;
-        let mdrano = ((mdrtotal+aluguel)*12)/100*100;
+        let mdrano = (mdrtotal*12)+(aluguel*12)/100*100;
 
 
 
@@ -101,10 +102,10 @@ function Calculadora(){
         var mdrtotal4 = mdrdebito4+mdrcredito4; 
 
 
-        var mdranual1 = ((mdrtotal1+aluguel)*12)/100*100;
-        var mdranual2 = ((mdrtotal2+aluguel)*12)/100*100;
-        var mdranual3 = ((mdrtotal3+aluguel)*12)/100*100;
-        var mdranual4 = ((mdrtotal4+aluguel)*12)/100*100;
+        var mdranual1 = (mdrtotal1*12)+valormaquina/100*100;
+        var mdranual2 = (mdrtotal2*12)+valormaquina/100*100;
+        var mdranual3 = (mdrtotal3*12)+valormaquina/100*100;
+        var mdranual4 = (mdrtotal4*12)+valormaquina/100*100;
 
         
 
