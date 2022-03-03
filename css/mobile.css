@@ -1,0 +1,315 @@
+
+.body{ 
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+
+
+
+}
+
+.preencher ul {
+
+    position: absolute;
+    left: 58%;
+    top: 10%;
+
+    grid-template-columns: repeat(1, 400px);
+
+}
+#navbar{
+    height: 50px;
+    width: 100%;
+}
+
+.logo{
+    position: relative;
+    top: -15px;
+    height: 40px;
+    width: 40px;
+}
+.navbar-container{
+    
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+
+.preencher-title{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 10px;
+
+}
+
+
+#navbar-items li{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: start;
+    font-weight: bold;
+    width: 100%;
+    padding: 1%;
+
+
+}
+
+#navbar-items li:nth-child(2){
+    border-top: #141414;
+    border-top: #141414;
+
+
+}
+
+
+.botao{
+    font-size: 20px;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    background: linear-gradient(to left top, #003aff, #005dfc, #0072ec, #0080d5, #2c8aba);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.resultados{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    font-size: 12px;
+
+}
+.text-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    font-size: 15px;
+
+}
+.bloco1{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translateX(-50%);
+    width: 130px;
+
+    z-index: -1;
+
+}
+.bloco2{
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 130px;
+
+    z-index: -1;
+    
+
+}
+
+.bloco3{
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    transform: translateX(-50%);
+    width: 130px;
+
+    z-index: -1;
+
+    
+
+}
+
+.bloco4{
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 130px;
+
+    z-index: -1;
+
+    
+
+}
+
+.bloco5{
+    position: absolute;
+    top: 120%;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 130px;
+
+    z-index: -1;
+
+    
+
+}
+
+.bloco6{
+    position: absolute;
+    top: 120%;
+    left: 30%;
+    transform: translateX(-50%);
+    width: 130px;
+
+    z-index: -1;
+}
+.resultados-MP{
+
+    position: absolute;
+    top: 145%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    text-align: center;
+    z-index: -1;
+    font-size: 12px;
+
+
+}
+
+.bloco1-mp{
+    position: absolute;
+    top: 150%;
+    left: 30%;
+    width: 130px;
+    
+    transform: translateX(-50%);
+
+    z-index: -1;
+
+    
+
+}
+
+.bloco2-mp{
+    position: absolute;
+    top: 150%;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 130px;
+
+    z-index: -1;
+
+    
+
+}
+
+.bloco3-mp{
+    position: absolute;
+    top: 170%;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 130px;
+
+    z-index: -1;
+
+    
+
+}
+.bloco4-mp{
+    position: absolute;
+    top: 170%;
+    left: 30%;
+    transform: translateX(-50%);
+    width: 130px;
+
+    z-index: -1;
+
+    
+
+}
+.bloco5-mp{
+    position: absolute;
+    top: 170%;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 130px;
+
+    z-index: -1;
+
+    
+
+}
+
+.bloco5-mp{
+    position: absolute;
+    top: 190%;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 130px;
+
+    z-index: -1;
+
+    
+
+}
+
+.bloco6-mp{
+    position: absolute;
+    top: 190%;
+    left: 30%;
+    transform: translateX(-50%);
+    width: 130px;
+
+    z-index: -1;
+
+    
+
+}
+
+.bloco7-mp{
+    position: relative;
+    top: 165%;
+    left: 150%;
+    transform: translateX(-50%);
+    width: 325px;
+
+    z-index: -1;
+    
+
+}
+
+#footer{
+    position: absolute;
+    top: 290%;
+    left: 110%;
+    transform: translate(-50%,-50% );
+    text-align: center;
+
+}
+
+.loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.valor_TOTAL{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    text-align: center;
+    font-size: 20px
+}
+.valor_share{
+    font-size: 15px;
+}
+
+
