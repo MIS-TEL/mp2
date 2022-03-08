@@ -12,15 +12,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    min-height: 100vh;
-
-
-
-
 }
     a {
     text-decoration: none;
@@ -132,7 +123,7 @@ input{
     font-size: 20px;
 
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%);
     font-weight: bold;
@@ -287,10 +278,12 @@ input{
 
 }
 
+
+
 .bloco1{
     position: absolute;
-    top: 70%;
-    left: 20%;
+    top: 72%;
+    left: 70%;
     width: 250px;
     height: 100px;
     text-align: center;
@@ -298,6 +291,7 @@ input{
     background:linear-gradient(-120deg, #D62121, #C72C2C, #3a1111);    padding: 15px;
     z-index: -1;
     border-radius: 15px;
+    transform: translate(-50%)
     
 
 }
@@ -319,8 +313,8 @@ input{
 
 .bloco2{
     position: absolute;
-    top: 70%;
-    left: 40%;
+    top: 72%;
+    left: 20%;
     width: 250px;
     height: 100px;
     text-align: center;
@@ -350,17 +344,16 @@ input{
 
 .bloco3{
     position: absolute;
-    top: 70%;
-    left: 60%;
+    top: 72%;
+    left: 50%;
     width: 250px;
     height: 100px;
     text-align: center;
     font-size: 20px;
     background:linear-gradient(-120deg, #D62121, #C72C2C, #3a1111);    padding: 15px;
-    border-radius: 15px;
-    padding: 15px;
     z-index: -1;
-    
+    border-radius: 15px;
+    transform: translate(-50%)
 
 }
 .bloco3-mp{
@@ -476,16 +469,19 @@ input{
 }
 
 .bloco7-mp{
-    position: absolute;
-    top: 180%;
-    left: 0%;
-    width: 800px;
+    max-width: 765px;
+    width: 1500px;
     height: 100px;
+    padding: 20px;
+    position: absolute;
+    left: 00%;
+    top: 130%;
+
+    border-radius: 10px;
     text-align: center;
     font-size: 20px;
     background: linear-gradient(to left top, #003aff, #005dfc, #0072ec, #0080d5, #2c8aba);
     border-radius: 15px;
-    padding: 15px;
     z-index: -1;
     
 
