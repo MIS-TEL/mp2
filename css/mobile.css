@@ -92,7 +92,7 @@
 .botao{
     font-size: 20px;
     position: absolute;
-    top: 80%;
+    top: 92%;
     left: 50%;
     transform: translateX(-50%);
     font-weight: bold;
@@ -123,14 +123,17 @@
 
 .blocos{
     position: absolute;
-    top: 110%;
+    top: 130%;
     left: 50%;
     transform: translate(-50%,-50% );
 
 
     background: none;
-    max-width: 300vh;
-    width: 50vh;
+    max-width: 100vh;
+    width: 80%;
+    height: 100%;
+    max-height: 35vh;
+    min-height: 25vh;
 
 }
 
@@ -143,10 +146,11 @@
 
 
     background: none;
-    height: 16vh;
-    max-width: 300vh;
-    width: 50vh;
-    max-height: 300vh;
+    height: 100%;
+    max-width: 200vh;
+    min-height: 25vh;
+    width: 100%;
+    max-height: 50vh;
 
 
 }
@@ -314,10 +318,10 @@
 
 .bloco7-mp{
     position: absolute;
-    top: 110%;
+    top: 200%;
     left: 0%;
     transform: translateX(-0%);
-    width: 300px;
+    width: 305px;
 
 
     z-index: -1;
@@ -327,8 +331,9 @@
 
 #footer{
     position: absolute;
-    top: 300%;
-    left: 130%;
+    top: 340%;
+    left: 120%;
+    height: auto;
     transform: translate(-50%,-50% );
 
 }
