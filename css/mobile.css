@@ -83,7 +83,7 @@
 }
 .resultados{
     position: absolute;
-    top: 75%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%,-50% );
     font-size: 12px;
@@ -97,21 +97,49 @@
     font-size: 15px;
 
 }
+
+.blocos{
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+
+
+    background: none;
+    width: 100%;
+    max-width: 300px;
+
+}
+
+
+.blocos-mp{
+    position: absolute;
+    top: 450%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+
+
+    background: none;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+
+}
 .bloco1{
     position: absolute;
-    top: 90%;
-    left: 30%;
-    transform: translateX(-50%);
+    top: 0%;
+    left: 0%;
+    transform: translate(-0%,-0% );
     width: 130px;
 
     z-index: -1;
 
 }
 .bloco2{
-    position: absolute;
-    top: 90%;
-    left: 70%;
-    transform: translateX(-50%);
+    position: relative;
+    top: 0%;
+    left: 56.7%;
+    transform: translate(-0%,-0% );
     width: 130px;
 
     z-index: -1;
@@ -122,8 +150,8 @@
 .bloco3{
     position: absolute;
     top: 110%;
-    left: 30%;
-    transform: translateX(-50%);
+    left: 0%;
+    transform: translate(-0%,-0% );
     width: 130px;
 
     z-index: -1;
@@ -135,21 +163,20 @@
 .bloco4{
     position: absolute;
     top: 110%;
-    left: 70%;
-    transform: translateX(-50%);
+    left: 56.7%;
+    transform: translate(-0%,-0% );
     width: 130px;
 
     z-index: -1;
-
     
 
 }
 
 .bloco5{
     position: absolute;
-    top: 130%;
-    left: 70%;
-    transform: translateX(-50%);
+    top: 220%;
+    left: 0%;
+    transform: translateX(-0%);
     width: 130px;
 
     z-index: -1;
@@ -160,9 +187,9 @@
 
 .bloco6{
     position: absolute;
-    top: 130%;
-    left: 30%;
-    transform: translateX(-50%);
+    top: 220%;
+    left: 56.7%;
+    transform: translateX(-0%);
     width: 130px;
 
     z-index: -1;
@@ -170,7 +197,7 @@
 .resultados-MP{
 
     position: absolute;
-    top: 155%;
+    top: 380%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 20px;
@@ -183,11 +210,11 @@
 
 .bloco1-mp{
     position: absolute;
-    top: 160%;
-    left: 30%;
+    top: 00%;
+    left: 0%;
     width: 130px;
     
-    transform: translateX(-50%);
+    transform: translateX(-0%);
 
     z-index: -1;
 
@@ -197,9 +224,9 @@
 
 .bloco2-mp{
     position: absolute;
-    top: 160%;
-    left: 70%;
-    transform: translateX(-50%);
+    top: 00%;
+    left: 56.7%;
+    transform: translateX(-0%);
     width: 130px;
 
     z-index: -1;
@@ -210,9 +237,9 @@
 
 .bloco3-mp{
     position: absolute;
-    top: 180%;
-    left: 70%;
-    transform: translateX(-50%);
+    top: 110%;
+    left: 56.7%;
+    transform: translateX(-0%);
     width: 130px;
 
     z-index: -1;
@@ -222,21 +249,9 @@
 }
 .bloco4-mp{
     position: absolute;
-    top: 180%;
-    left: 30%;
-    transform: translateX(-50%);
-    width: 130px;
-
-    z-index: -1;
-
-    
-
-}
-.bloco5-mp{
-    position: absolute;
-    top: 180%;
-    left: 70%;
-    transform: translateX(-50%);
+    top: 110%;
+    left: 0%;
+    transform: translateX(-0%);
     width: 130px;
 
     z-index: -1;
@@ -245,11 +260,12 @@
 
 }
 
+
 .bloco5-mp{
     position: absolute;
-    top: 200%;
-    left: 70%;
-    transform: translateX(-50%);
+    top: 220%;
+    left: 56.7%;
+    transform: translateX(-0%);
     width: 130px;
 
     z-index: -1;
@@ -260,9 +276,9 @@
 
 .bloco6-mp{
     position: absolute;
-    top: 200%;
-    left: 30%;
-    transform: translateX(-50%);
+    top: 220%;
+    left: 0%;
+    transform: translateX(-0%);
     width: 130px;
 
     z-index: -1;
@@ -272,11 +288,12 @@
 }
 
 .bloco7-mp{
-    position: relative;
-    top: 175%;
-    left: 150%;
-    transform: translateX(-50%);
-    width: 325px;
+    position: absolute;
+    top: 110%;
+    left: 0%;
+    transform: translateX(-0%);
+    width: 300px;
+
 
     z-index: -1;
     
