@@ -15,10 +15,11 @@
 .preencher ul {
 
     position: absolute;
-    left: 58%;
+    left: 35%;
     top: 10%;
+    transform: translateX(-50%,-50%);
 
-    grid-template-columns: repeat(1, 400px);
+    grid-template-columns: repeat(1, 200px);
 
 }
 #navbar{
@@ -68,7 +69,24 @@
 
 }
 
+.input{
+    max-width: 100px;
+}
 
+.input-group__label {
+    max-width: 200px;
+
+    
+}
+.input-group{
+    width: 320px;
+}
+
+#navbar-itens ul{
+
+    width: 100px
+    
+}
 .botao{
     font-size: 20px;
     position: absolute;
